@@ -133,7 +133,7 @@ punctualPrompt () {
 
 punctualPyVenv () {
     PUNCTUAL_PROMPT_VIRTUAL_ENV=`echo $VIRTUAL_ENV`;
-    punctualDecorate "${PUNCTUAL_PROMPT_VIRTUAL_ENV##/*/}" "${PUNCTUAL_VIRTUAL_ENV_COLOUR}" ${PUNCTUAL_VIRTUAL_ENV_BOLD}";
+    punctualDecorate "${PUNCTUAL_PROMPT_VIRTUAL_ENV##/*/}" "${PUNCTUAL_VIRTUAL_ENV_COLOUR}" "${PUNCTUAL_VIRTUAL_ENV_BOLD}";
 }
 
 punctualBuildTheme () {
